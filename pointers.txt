@@ -1,0 +1,63 @@
+🔹 1. Mobile Registration + OTP
+Mobile input screen
+OTP generation + verify API integration
+UI for “Resend OTP”, timer, validation
+Error states, edge cases
+
+🔹 2. Personal Details Form
+Full form UI
+Client-side validation (regex, formats, required fields)
+Error messages + accessibility labels
+
+
+🔹 3. Nominee Details
+Additional form fields
+Validation (age, relationship)
+Edit functionality
+
+🔹 4. Bank Details
+Account number validation
+IFSC lookup (API optional)
+Error & success states
+
+🔹 5. Document Upload
+File type check (PDF/JPG)
+File size limits
+Preview image
+Compress before upload (optional)
+
+🔹 6. Preview Screen
+Data summary
+Edit option for each section
+
+🔹 7. Success Page
+Reference ID
+Sharing options (optional)
+
+2. Optimization + System Architecture
+🔹 Performance Optimization
+Image compression + lazy loading
+Route-based chunking
+Lighthouse tuning (>90)
+
+🔹 Dark Mode
+System theme detection
+Toggle + persistence (localStorage)
+Contrast checks
+
+🔹 Accessibility (WCAG AA)
+Proper semantic HTML + roles
+Skip links, keyboard navigation
+Screen-reader labels
+
+🔹 UX & Reliability
+Auto-save Resume Later (localStorage or state persistence)
+Inline validation
+Offline fallback (basic)
+
+3. Testing + QA
+🔹 Cross-browser testing
+Chrome, Safari, Edge, Firefox
+Mobile responsiveness
+
+🔹 Bug fixing + Final Review
