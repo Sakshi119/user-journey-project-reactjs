@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-
+import '../styles/mobileRegistration.scss'
 const MobileRegistration = () => {
   const navigate = useNavigate();
   const [mobile, setMobile] = useState("")
