@@ -1,34 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Route, Routes } from 'react-router-dom'
+import MobileRegistration from './pages/MobileRegistration';
+import OtpVerify from './pages/otpVerify';
+import PersonalDetails from './pages/PersonalDetails';
+import NomineeDetails from './pages/NomineeDetails';
+import BankDetails from './pages/BankDetails';
+import DocumentUpload from './pages/DocumentUpload';
+import Preview from './pages/Preview';
+import Success from './pages/Success';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <Routes>
+      <Route path='/' element={<MobileRegistration/>}/>
+      <Route path='/verify-otp' element={<OtpVerify/>} />
+      <Route path='/personal' element={<PersonalDetails/>} />
+      <Route path='/nominee' element={<NomineeDetails/>} />
+      <Route path='/bank' element={<BankDetails/>} />
+      <Route path='/documents' element={<DocumentUpload/>} />
+      <Route path='/preview' element={<Preview/>} />
+      <Route path='/success' element={<Success/>} />
+    </Routes>
   )
 }
 
