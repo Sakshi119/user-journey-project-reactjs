@@ -1,0 +1,36 @@
+.pageContainer {
+  min-height: 100vh;
+  /* background: linear-gradient(135deg, #eff6ff 0%, #e0e7ff 100%); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 36%), 0 10px 10px -5px rgb(0 0 0 / 29%);
+  width: 100%;
+  max-width: 720px;
+  padding: 32px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 24px 20px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .pageContainer {
+    padding: 16px 12px;
+  }
+  
+  .card {
+    padding: 20px 16px;
+  }
+}

@@ -1,0 +1,126 @@
+.container {
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.iconWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background-color: #dcfce7;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #4b5563;
+  margin: 0;
+}
+
+.changeNumber {
+  background: none;
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 4px;
+  padding: 4px;
+}
+
+.changeNumber:hover {
+  text-decoration: underline;
+}
+
+.otpSection {
+  margin-bottom: 24px;
+}
+
+.otpLabel {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.otpContainer {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.otpInput {
+  width: 48px;
+  height: 56px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  background: transparent;
+  color: #4b5563;
+}
+
+.otpInput:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.error {
+  color: #ef4444;
+  font-size: 14px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.demoHint {
+  color: #6b7280;
+  font-size: 14px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.demoOtp {
+  font-weight: 600;
+}
+
+.resendSection {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.timerText {
+  color: #4b5563;
+  font-size: 14px;
+}
+
+.timerCount {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.resendButton {
+  background: none;
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 4px;
+}
+
+.resendButton:hover {
+  text-decoration: underline;
+}
