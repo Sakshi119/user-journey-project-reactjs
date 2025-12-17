@@ -67,9 +67,9 @@ export const OTPInput = ({
         {error && (
           <p className={styles.error}>{error}</p>
         )}
-        <p className={styles.demoHint}>
+        {/* <p className={styles.demoHint}>
           Demo: Use <span className={styles.demoOtp}>{DEMO_OTP}</span> as OTP
-        </p>
+        </p> */}
       </div>
 
       <Button
