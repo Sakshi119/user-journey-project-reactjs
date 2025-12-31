@@ -10,7 +10,7 @@
 .card {
   background-color: white;
   border-radius: 16px;
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 36%), 0 10px 10px -5px rgb(0 0 0 / 29%);
+  /* box-shadow: 0 20px 25px -5px rgb(0 0 0 / 36%), 0 10px 10px -5px rgb(0 0 0 / 29%); */
   width: 100%;
   max-width: 720px;
   padding: 32px;
